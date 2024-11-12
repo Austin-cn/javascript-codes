@@ -11,11 +11,20 @@ console.log("welcome to our website");
 var name = "austin";
 console.log(name);
 
+let information = 5 + 6;
+console.log(information);
+
+let malopino = ["brotherj", "hotlife", "the john", "verily"]
+console.log(malopino [3] [0]);
+
 let age = 40
 console.log(age);
 
 const email = "austinyoleh@gmail.com";
 console.log(email); 
+
+let austria = "leoben@gmail.com";
+console.log(austria);
 
 /* Deta type */
 
@@ -33,6 +42,9 @@ let age2 = 25   // this one is call integer
 console.log(age2);
 let myNumber = 0.94  // the one is called float
 console.log(myNumber);
+
+let loopLano = 10;
+console.log(loopLano);
 
 //Boolean has to do with true or false
 

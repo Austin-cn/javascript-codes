@@ -2,7 +2,34 @@
 
 
 //1. Arrithemtic operation
+
+// first let talk about the Assignment operator
+
+// Assignment Operator
+// this operators assign values to variables 
+
+// assignment
+
+let x = 5 ;
+console.log(x)
+
+// addition 
+let y = 5 + 1;
+console.log(y);
+y+= 1;
+console.log(y)
+
+// subtraction
+
+let z = 10 - y;
+console.log(z)
+z-=y
+console.log(z)
+
+
+
 // addition
+
 
 let sum = 5 + 3;
 console.log(sum);
@@ -37,30 +64,8 @@ let lamboMina = ansamta % 6;
 console.log(lamboMina)
  
 
-// Assignment Operator
-// this operators assign values to variables 
-
-// assignment
-
-let x = 5 ;
-console.log(x)
-
-// addition 
-let y = 5 + 1;
-console.log(y);
-y+= 1;
-console.log(y)
-
-// subtraction
-
-let z = 10 - y;
-console.log(z)
-z-=y
-console.log(z)
-
-
 // comparison Operator
-// this operator compar values and return a boolean value 
+// this operator compar values and datatypes and return a boolean value 
 
 //Equal
 
@@ -80,11 +85,14 @@ console.log(7 === "7")
 
 
 
-//Not Equal
-console.log(5 != "5")
+//Not Equal: Haven't known that, this operator ( double ==) is use to check and state if datatype are equal or not,
+// We also have an opertor that state is not with the exclamation sign (!)Example
 
-//this stric help to conpliment console.log(5 != "5") to be false
+console.log(5 != "5") // it will show false
+
+//this stric help to conpliment console.log(5 != "5") to the first statement of (is not !=)
 // strict not equal
+
 console.log(5 !== "5")
 
 
@@ -98,8 +106,12 @@ let r = 2;
 
 console.log(p !=r)
 
+let pounds = 2700;
+let naira = 100;
+console.log( pounds != naira)
+
 // strict not equql
-console.log(5 !==5)
+console.log(5 !=5)
 
 let m = "austin"
 let l =10
@@ -139,6 +151,7 @@ console.log(o >= q);
 
 let j = q - 3;
 
+
 console.log(d >= j);
 
 //greater than equql
@@ -151,17 +164,23 @@ let eba = 60;
 console.log(eba <= milk)
 
 // using logical operators declear four variable that logs boolean value on
-// consle.
+// console.
 // using comment on the vs code editor explain the meaning and how it function.
 
 // logic operators. This are use to compaire both variables 
 
-// in this kind of logic, if any of the variable is positive it will return positve 
+// in this kind of logic, if both of the variable is positive it will return positve 
 const hasDriverLiccence = true;
 const hasInsurance = true;
 
 const carDrive = hasDriverLiccence && hasInsurance;
 console.log(carDrive);
+
+const foodManSuplyer = true
+const waterGiver = true
+
+const theEater =  foodManSuplyer && waterGiver;
+console.log(theEater);
 
 // in this kind of logic, if any of the variable is negetive it will return false 
 const isAdult = true;
@@ -169,11 +188,21 @@ const isHungery = false;
 const canEnter = isAdult && isHungery;
 console.log(canEnter);
 
+const dream = true;
+const matter = false;
+const romotRiver = dream && matter;
+console.log(romotRiver);
+
 // in this kind of logic, if any of the variable is positive it will return positve 
 const knowsHTML = false;
 const knowsCSS = true;
 const canDesigneWebsite =   knowsHTML || knowsCSS;
 console.log(canDesigneWebsite);
+
+const getouse = false;
+const buildPlane = true
+const truth = getouse || buildPlane;
+console.log(truth);
 
 // in this kind of logic, if any of the variable is negetive it will return false 
 const isAdmin = false;
@@ -181,5 +210,4 @@ const isSuperUser = false
  
 const canAccessPage = isAdmin || isSuperUser;
 console.log(canAccessPage)
-
 

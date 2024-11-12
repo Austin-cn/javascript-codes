@@ -17,6 +17,15 @@ if( temperature > 25) {
     console.log('it is a cold day')
 }
 
+const lekiGood = true; 
+let   ojota = false;
+
+if ( lekiGood || ojota ) {
+    console.log( 'them we all move to leki' )
+} else {
+    console.log('we remain in mainland')
+}
+
 const isAdmin = false;
 const isSuperUser = false;
 
@@ -37,4 +46,15 @@ if (  isPaidSchoolFee && hasGoodHealth ) {
     console.log("go back home")
 }
 
+const shipping = 50;
 
+if ( shipping < 40 ) {
+    console.log( "free shipping" )
+} else {
+    console.log( "shipping fee is $150" )
+}
+
+let yes = true;
+let no  = false;
+
+console.log(!no);
